@@ -1,0 +1,6 @@
+// Computer Programming Lanaguage
+    Medium to communicate with the Computer.
+
+// folders name and files names must not include:
+    a. additional (.) before (.c)
+    

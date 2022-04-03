@@ -1,0 +1,57 @@
+// variables:
+    1. containers that stores values.
+    2. va can be changed.
+
+// Rules for naming variables:
+    1. first characters must;
+        a. (a,b,...,z) characters
+        b. (_) undescore
+    2. not allowed:
+        a. (,) comma
+        b. ( ) blank
+        c. (!,@,#,$,%,...) special symbols
+    3. variables names are case sensitive.
+    4. meaningful names are only allowed. 
+
+// constants:
+    1. entity whose value doesn't changes.
+    2. types:
+        a. (1,5,-8,-79) integer constants.
+        b. (-464.23,6546.13) real constants, floats.
+        c. ('f','$',...) character constants
+            --> must be enclosed within inverted commas.
+
+// keywords:
+    1. meaning already defined in the compiler.
+    2. 32 keywords.
+        -->
+        auto        double      int         struct
+        break       long        else        switch
+        case        return      enum        typedef
+        char        register    extern      union
+        const       short       float       unsigned
+        continue    signed      for         void
+        default     sizeof      goto        volatile
+        do          static      if          while
+
+// basic structure:
+     1. starts with a main function.
+     2. executes instructions present inside it.
+     3. each instruction are terminated with (;) semicolon.
+
+// comments
+    1. sinle line comment.
+        (// )
+    2. double line comment.
+        (/* 
+                */)
+    3. ignored by compiler.
+
+// data types
+    1. inetegrs     :   int     :   %d
+    2. floats       :   floats  :   %f
+    3. characters   :  char    :   %c
+
+// (&) operator
+    1. address of the operator
+    2. supplied value is transferred to the variable

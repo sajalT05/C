@@ -1,0 +1,29 @@
+// instructions:
+    1. type declaration instructions
+        a. declare type of contants and variables
+        b. instructs computer to store value of certain type.
+        c. e.g.
+            int a;
+                i. if decimal value is given in integer, then nearest integer used.
+            float b;
+            char c;
+    2. arithmetic instructions
+    3. control instructions
+
+// rules
+    1. first value of a variable or contants is defined.
+        --> then arithmetic operation are done.
+    2. value of variable or contant on the right hand side is given to,
+        constant or variable on the left hand side.
+
+// aithmetic operators
+    1. addition (+)
+    2. substrcation (-)
+    3. multiplicaiton (*)
+    4. division (/)
+        a. returns nearest integer value when integer value is requested.
+
+// operator precedence
+    1. first    :   (*) (/) (%)
+    2. second   :   (+) (-)
+    3. third    :   (=)
