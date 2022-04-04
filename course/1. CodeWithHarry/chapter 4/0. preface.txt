@@ -1,0 +1,8 @@
+// loop control instructions:
+    1. execute set of programs over and over again.
+    2. repeat similar part of code instructions.
+
+// types of loops:
+    1. while loop
+    2. do-while loop
+    3. for loop    

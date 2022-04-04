@@ -1,0 +1,65 @@
+// conditional operators, check single condition:
+    1. (==) equals to
+    2. (>) greater than
+    3. (<) less than
+    4. (>=) greater than or equals to
+    5. (<=) less than or equals to
+    6. (!=) not equals to 
+
+// logical operators check conditional statements combination, 
+    1. (&&) and
+        --> excecutes only when both statements are true.
+    2. (||) or
+        --> executes when any one of the statements is true.
+    3. (!( )) not
+        --> reverses boolean of condition, 
+            -> true to false
+            -> false to true
+
+// if else ladder
+--
+if(// condition){
+    // statements
+}
+else if(// condition){
+    // statements
+}
+else(// conditions){
+    // statements
+}
+
+// operators precedence (priority)
+    1. (!)
+    2. (*) (/) (%)
+    3. (+) (-)
+    4. (<>) (<=) (>=)
+    5. (==) (!=)
+    6. &&
+    7. (||)
+    8. (=)
+
+// ternary operators: replace lengthy if else conditional statements:
+    -->
+        (//conditions)? //statement_if_true : //statement_if_false
+
+
+// switch case control instructions
+    1. used when we have to make a choice between number of 
+        alternatives for a given variable.
+    2. order sis not necessary.
+    3. 
+0
+-->
+statements is executed for a condition when integer_expression = constantX 
+-->
+switch(//integer_expression){
+    case contant1:
+        printf(//statements);
+        break;
+    case constant2:
+        printf(//statements);
+        break;
+    default:
+        printf(//statements);
+        break;
+}
