@@ -11,6 +11,9 @@
 ### Templates
 1. [Devdocs](https://devdocs.io/c/)
 
+### Books
+1. The C Programming Language | Brian W. Kernighan & Dennis M. Ritchie
+
 ### Tutorials
 1. [C Language Tutorial For Beginners In Hindi](https://www.youtube.com/watch?v=ZSPZob_1TOk)
 

@@ -1,0 +1,82 @@
+// control:
+    1. line in execution.
+
+// functions:
+    1. break our code into chunks
+    2. reuse programms at several places.
+    3. block of code, which performs a particular task.
+    4. test and check independently.
+    5. keep track of activities in a program. 
+    6. can return only one value at a time.
+    
+    //  function prototype:
+        1. tell compiler about the function, to be defined in proragm.
+        2. void means, functions returns nothing.
+        3. before, int main(){}
+        --> examples:
+            a. void functionName();
+    
+    //  function call:
+        1.  teel compiler to execute function when it is called.
+        2. *program execution starts from the main function in the 
+            sequence the instruction are written.
+        3. in int main(){}
+        --> examples:
+            a. functionName();
+
+    //  function definition:  
+        1. set of instructions executed when function is called.
+        2. when function is called from main function main():
+            a. main() function falls asleep and is temporarily suspended.
+            b. control is given to the function called, functionName().
+            c. when functionName() is completely executed.
+            d. main() function resumes.
+        3. after int main(){}
+        --> examples:
+            a. void functionName(){
+                // code instruction //
+            }
+
+//  important points:
+    1. execution of c proragm starts from main().
+    2. c program can have any number of functions.
+    3. functions are called directly or indirectly from main().
+    4. main() is entry point for function in a program.
+
+//  types of functions:
+    1.  library functions: 
+            commonly required functions grouped together in a libary file/disk.
+    2. user defined functions:
+            functions declared and defined by users.                       
+
+//  functions in functions:
+    1. call functions within another function definition.
+
+// passing values to a function:
+    1. parameters:   function accepeting values. 
+    2. return value: function returning value.
+    --> examples
+        function_return_value functionName(function_parameter)
+        a. function_parameter: value that will be passed to the function:parameter
+        b. function_return_value: value returned by function execution.
+
+// parameters
+    1. values or variable placeholder.
+    2. defined in the function.
+// arguments    
+    1. actual values passed to the function.
+    2. given in place of parameters, when function is called.
+-->when a variable is passed as an argument in a function:
+    1. it's value is unchanged.
+    2. a copy of the variable is passed to the function.
+
+
+// recursion:
+    1. function defined in C cna call itself.
+    2. function calling itself is called recursive function.
+    3. most direct way to code an algotrithm.
+    4. keywords:
+        a. base condition: a condition which doesn't call the 
+            recursive function any further.
+        b. memory error: when by mistake, recursive funciton keeps running,
+            without returning any any value.

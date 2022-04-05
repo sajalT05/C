@@ -2,7 +2,66 @@
     1. execute set of programs over and over again.
     2. repeat similar part of code instructions.
 
+// assignment oeprator
+    1. (+=) increase value by X.
+    2. (-=) decrease value by X.
+    3. (*=) mu;tiply value by X.
+    4. (/=) divide value by X.
+    5. (%=) remainder of value by X.
+
 // types of loops:
     1. while loop
     2. do-while loop
-    3. for loop    
+    3. for loop
+
+// while loop
+    1. checks conditions
+    2. executes command, if condition is true
+    3. increment the value
+    4. reapeat loop
+-->
+    while (/* condition */)
+    {
+    /* code */
+    }
+
+// do-while loop
+    1. first command iterations is executed.
+    2. value if increased.
+    3. check condition
+    4. executes second command, if condition is true.
+    5. reapeat loop.
+    -->
+    do  {
+        /* code */
+        } 
+        while (/* condition */);
+
+// for loop
+    a. loop functioning
+        1. base value is defined.
+        2. maximum/minimnum limit is defined.
+        3. increment/decrement is defined.
+        4. command is given
+    b. vale is checked for loop and then increased at the same time.
+    c. if entered value matches condition, command is executed.
+    d. features:
+        1. initialize: setting a loop counter to an initial value.
+        2. test: checking a condition.
+        3. increment: updating a loop counter.
+
+-->
+    for (int i = 0; i < count; i++)
+    {
+    /* code */
+    }
+
+// statement
+    // break
+        1. exit the loop, irrespective of whether condition is true of false.
+        2. with break is encountered in loop, control is sent outseide the loop.
+    // continue
+        1. immediately move to the next iteration in the loop.
+        2. control is taken to the next iteration, 
+            skipping everything below continue inside the loop for that iteration.
+

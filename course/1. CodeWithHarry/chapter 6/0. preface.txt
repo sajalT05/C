@@ -1,0 +1,4 @@
+// pointers: a variable which stores address of another variable.
+
+// important:
+    1. 

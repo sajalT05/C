@@ -1,7 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    printf(" statement ");
+    printf(" for loop ");
     
+
+
+
     return 0;
 }

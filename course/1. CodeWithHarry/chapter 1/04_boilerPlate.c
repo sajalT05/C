@@ -6,9 +6,9 @@
 			"#include<stdio.h>",
 			"",
 			"int main() {",
-			"printf();",
-			"",
-			"return 0;",
+			"\tprintf();",
+			"\t",
+			"\treturn 0;",
 			"}"
 		],
 		"description": "general boiler plate code for c programme."
