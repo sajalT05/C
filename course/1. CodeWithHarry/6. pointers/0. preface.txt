@@ -1,0 +1,41 @@
+// pointers: a variable which stores address of another variable.
+
+// important:
+    1. ram is continuos block of memory.
+    2. address is the block number.
+    3. (&) is the address operator.
+    4. (&) address operator is used to obtain address of a variable.
+
+// print pointer or value address:
+    1. (%u) is used to print pointer or value address
+
+// format specifier operator (%): 
+        used for printing pointer address. [%i]
+
+ // value at address operator(*): 
+        obtain value present at a given memory address. [*(&i)]
+
+// declaring a pointer.
+        --> example
+        // declare a pointer variable using(*)
+        int *pointer; // integer
+        char *pointer; // character
+        float *pointer; // floats 
+        // store address of i in j.
+        pointer=&i; 
+
+
+ .......................................
+
+ variable: i        |           &i = 58264    // address of i
+ ............       |           *(&i) = 5     // value of i
+ .          .       |           int *j        // declare pointer(int-type variable)
+ .    5     .       |           j=&i          // store address of i
+ .          .       |           int **k       // declare pointer's pointer
+ ............       |           k=&j          // store address of k
+ address: 58264     |           printf("%d",i) = 5  
+
+ .......................................
+
+// pointer to pointer
+    1. declare the pointer variable by (**)

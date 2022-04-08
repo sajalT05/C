@@ -1,0 +1,43 @@
+// arrays: 
+    1. collection of similar events
+    2. capable of storing multiple values.
+
+// ddeclaring arrays:
+    1. inetger array            |   int array[90]
+    2. string/character array   |   char array["hi"]
+    3. float array              |   float array[3.5]
+
+// important points:
+    1. index of array stars with 0.
+    2. continous blocks in dimension.
+    3. can be of one/two/three/n dimensions
+
+// arrays in memory
+    a. integer array    | 1 integer  = 4 bytes = 32 bits
+    -->example
+        3 integers in array -> 3X4 = 12 bytes
+    b. float array    | 1 float  = 4 bytes = 32 bits
+    -->example
+        3 floatss in array -> 3X4 = 12 bytes
+    c. character array    | 1 character  = 1 bytes = 8 bits
+    -->example
+        3 characters in array -> 3X1 = 3 bytes         
+
+
+// pointer indexing
+    1. if 'pointer' points to array[0], i.e. 1st index position in array.
+    2. 'pointer++' points to array[1], i.e. 2nd index position in array.
+
+// dimensions:
+    1. one dimension array: array[n] -> 1 row,n elements
+        --> array[3]={1,2,3}
+    2. two dimension array: array[n][m] -> n rows, m columns, nXm elements
+        --> array[3][2]={{1,2},{3,4},{5.6}}
+
+// 1 dimensional array in memory | array[3] | 1D array of 3 elements
+    1. elements are stored in a single line.
+    --> array[0] | array[1] | array[2]
+
+// 2 dimensional array in memory | array[3][2] | 2D array of 3 rows, 2 columns | 6 elements
+    1. 2D arrays are stored as 1D array only.
+    --> array[0][1] | array[0][1] | array[1][0] | array[1][1] | array[2][0] | array[1][1]

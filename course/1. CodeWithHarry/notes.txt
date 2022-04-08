@@ -1,0 +1,14 @@
+// Computer Programming Lanaguage
+    Medium to communicate with the Computer.    
+
+// files name must not include:
+    a. additional (.) before (.c)
+    b. spaces
+
+// Rules:  
+    1. indentation is very important
+
+// memory
+    a. 1 integer    = 4 bytes = 32 bits
+    b. 1 character  = 1 bytes = 8 bits
+    c. floats       = 4 bytes = 32 bits 

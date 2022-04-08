@@ -48,9 +48,9 @@
     3. ignored by compiler.
 
 // data types
-    1. inetegrs     :   int     :   %d
+    1. integrs      :   int     :   %d
     2. floats       :   floats  :   %f
-    3. characters   :  char    :   %c
+    3. characters   :   char    :   %c
 
 // (&) operator
     1. address of the operator

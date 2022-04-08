@@ -1,0 +1,9 @@
+// pointer can be incremendted to the next memory locaiton of that type.
+
+--> example
+
+int a=32;        // declare an integer // takes 4 bytes of memory
+int *j = &a;     // declare a pointer // stores address of integer variable
+                 // pointer = variable address = 8790
+j++;             // pointer incremented by one address // to next integer variable           
+                 // updated pointer = another variable address = 8794

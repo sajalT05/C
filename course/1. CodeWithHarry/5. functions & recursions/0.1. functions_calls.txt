@@ -1,0 +1,17 @@
+// type of functions calls:
+    based on the way we pass arguments to the funtions.
+    1. call by value: sending values of arguments.
+    2. call by reference: sending address of arguments.
+
+// call by value functions:
+    --> example
+    function sum(a,b)
+    // sum is a function( )
+    // values are passed as arguments when funciton is called 
+    int c = sum(5,6)
+
+// call by reference funciton:
+    1. address of variable is passed as argument.
+    2. can modify value of a variable un calling function using (*) and (&).
+    --> example
+    function sum()

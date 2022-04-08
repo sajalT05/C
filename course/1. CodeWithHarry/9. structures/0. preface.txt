@@ -1,0 +1,26 @@
+// arrays and strings:
+    1. similar data (int, float, char)
+    2. system defined data types.
+
+// structure:
+    1. store dissimilar data
+    2.* collection of variables of different types under a single name.
+    3. user defined data type.
+    4. keep the data organized.
+    5. structures make data management easy for programming.
+
+// array of strcutre: same as array of integers,characters or floats.    
+
+// define structure
+struct structure{
+    int code;
+    float salary;
+    char name[10];
+}; //(;) is important
+
+// create structure variable
+struct structure variable;
+variable.code=101;
+variable.salary=56.23;
+strvariable.
+

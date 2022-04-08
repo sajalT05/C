@@ -1,0 +1,70 @@
+// strings:
+    1. one dimensional array terminate by a null. 
+        a. ('\0') null character
+        b. nul character is used to denote string termination.
+    2. characters are stored in contiguous memory location.
+
+// initializing strings:
+    1. char s[]={'m','a','n','\0'};
+    2. char s[]="man";
+
+// notes:
+    1. string should be short enought to fit into the array.
+    2. scanf can't be used to input multi word strings with spaces.
+    3. when taking input of strings, (&) is of no need.
+
+// gets and puts
+    1. gets(string_name): to store input string with spaces.
+    2. puts(string_name): to print string with spaces.
+
+// declare a string using pointers
+    1. tesll compiler to store string in memory
+    2. assigned address is stored in a char pointer.
+    --> example
+    int *stringPointer="happy";
+
+// important:
+    1. once a string a created using, string_name[]="stringName", it can't be 
+        modified to somethind else.
+    2. string created using, *pointer="string_name", can be modified.
+
+// string functions:
+    1. strlen(): 
+        a. number of characters in a string exclusind '\0'.
+        b. library: <stdio.h>
+    2. strcpy(target,source): 
+        a. cuts elements of source string into target string.
+        b. replaces elements of target string with elements of source strings.
+        c. library <string.h> 
+        d. target string should have enough memory to copy source string.
+        e. elements of source string are removed.
+        f. source strings becomes empty after execution.
+
+    3. strcat(target,source):
+        a. concatenate two strings.
+        b. adds elements of source strings to target strings.
+        c. elements of source string are appended into target strings.
+        d. target string should have enough memory to copy source string.
+        e. elements of source string are removed.
+        f. source strings becomes empty after execution.        
+        g. no spaces are added while concatenating.  
+
+    4. strcmp(string1,string2):
+        a. compare strings.
+            A. returns 0: if strings are equal.
+            B. returns negative value: first string's, first mismathcing character's
+                ASCII value is less  than second string's, first mismathcing characters's
+                ASCII value.
+            C. returns positive value: first string's, first mismathcing character's
+                ASCII value is more  than second string's, first mismathcing characters's
+                ASCII value. 
+            --> example:
+                string01="hap"
+                string02="hai"
+                string03="has"
+                string03="hap"
+                .....
+                strcmp(string01,string04) --> returns 0 --> same characters in string
+                strcmp(string01,string02) --> returns 1 --> ASCII(p) > ASCII(i)
+                strcmp(string01,string03) --> returns -1 --> ASCII(p) < ASCII(s) 
+                
