@@ -1,0 +1,43 @@
+// random access memory:
+    1. volatile and it's content is lost once the program terminates.
+
+// to persists/retain data foreveer, we store them in files.
+
+// files:
+    1. data stored in storage devices.
+
+// C program:
+    1. reading data from files.
+    2. writing data to files.
+
+
+// files
+    1. "FILE" is a structure which needs to be created for opening a file.
+    2. file pointer:
+        a. "File" pointer is a pointer of structure of the file. 
+        b. communication between file and the program.
+    3. modes:
+        a. (r) read mode. (if file not present->returns null)
+        b. (w) write mode. (if file not present->file created | if file present->over-written)
+        c. (rb) reading in binary mode. (if file not present->returns null)
+        d. (wb) writing in binary mode. (if file not present->file created | if file present->over-written)
+        e. (a) append mode. (if file not present->file created)
+    4. types:
+        a. (.txt) text file
+        b. (.jpeg,.png) binary files
+    5. scan files functions
+        a. fscan(pointer,"%d",&integer)
+    6. print files functions
+        a. fprintf(pointer,"%d",integerVariable)
+    7. characters
+        a. fgetc(characterVariable,pointer) : read character from files
+        b. fputc(characterVariable,pointer) : write character to files
+    8. (EOF) End of file 
+        a. fgetc() returns EOF when all characters from a file have been read.
+           
+    10. close files after code execution
+    --> example
+        // create a file pointer
+        FILE *pointer;
+        pointer=fopen("filename.txt","mode")
+        fclose(pointer);

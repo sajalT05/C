@@ -16,11 +16,61 @@ struct structure{
     int code;
     float salary;
     char name[10];
+    int range;
 }; //(;) is important
 
 // create structure variable
 struct structure variable;
 variable.code=101;
 variable.salary=56.23;
-strvariable.
+strcpy(variable.name,"hello");
+variable.range=565;
 
+
+// array of structures
+    --> example, create with structure
+        struct structure array_variable[10]; // array of structures
+
+//  structures in meory
+    1. structures are stored in coniguous memory locations.
+    2. in array of structures, instances are stored adjacent to each other.
+    ---> example
+        // define structure
+            struct structure{
+            int code;
+            float salary;
+            char name[10];
+            int range;
+            };
+        // create structure instances/variable
+            struct structure variable;
+                variable.code=101;              // address = 8020
+                variable.salary=56.23;          // address = 8024
+                strcpy(variable.name,"hello");  // address = 8028
+                variable.range=565;             // address = 8029
+
+// pointer to structure
+    --> example
+        struct structure *pointer;
+        pointer=&value;
+        (*pointer).code=131;
+        (*pointer).salary=6565.665;
+        strcpy((*pointer).name,"games")
+        // print structure elements using pointer
+        printf("%d",(*pointer).code);
+
+// arrow operators: (->)
+    1. access structure properties 
+
+// functions
+    1. structures can be passed to a function.
+    2. copy of structure goes to functions.
+    --> example
+        void show (struct structure variableName){ // function prototype
+        // statements //
+        }
+
+// typedef 
+    1. keyword
+    2. create alias name for data type in c.
+    3. more commonly used for structures.
